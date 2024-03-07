@@ -9,6 +9,4 @@ module.exports = function (app) {
     next();
   });
 
-  app.get("/api/contributes", controller.getAll);
-  app.post("/api/contribute", controller.save);
 };
